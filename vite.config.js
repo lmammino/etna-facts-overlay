@@ -9,5 +9,5 @@ export default defineConfig({
   build: {
     target: 'esnext'
   },
-  base: '/enta-facts-overlay/'
+  base: '/etna-facts-overlay/'
 })
