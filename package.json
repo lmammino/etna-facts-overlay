@@ -1,0 +1,38 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/experimental-utils": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-config-standard-with-typescript": "^26.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-solid": "^0.9.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@motionone/solid": "^10.15.5",
+    "@solid-primitives/keyed": "^1.1.7",
+    "solid-js": "^1.6.6"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
